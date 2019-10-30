@@ -23,19 +23,25 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
      ``` printer.setBackGroundColor(BackgroundColor.YELLOW) ```  
    - invoke the println function  
      ``` printer.println('Now,you can see the cyan output with underline and yellow background!') ```         
- 
-+ Color Constant  
++ To Reset The OutPut Style To Defult  
+  ```printer.reset()``` 
++ The Difference Between ```printer.print()``` and ```printer.println()```  
 
-     |              ColorName                  | 
-     | ----------------------------------------|
-     | <font color=#000000> BLACK </font>        |    
-     | <font color=#FF0000>RED</font>          |
-     | <font color=#008000>GREEN</font>        |
-     | <font color=#FFFF00>YELLOW</font>       |
-     | <font color=#0000FF>BLUE</font>         |
-     | <font color=	#9932CC>DARKORCHILD</font>|
-     | <font color=#00FFFF>CYAN</font>         |
-     | <font color=#FFFFFF>WHITE</font>        |  
+   - If you have  programing experiences on java,you may have known it.  
+   the ```printer.print()``` function dose not  end with a newline,but the ```printer.println()``` will do it.  
+
++ Color Constant          
+
+     |   ColorName  | 
+     | -------------|
+     |    BLACK     |    
+     |     RED      |
+     |   GREEN      |
+     |   YELLOW     |
+     |   BLUE       |
+     | DARKORCHILD  |
+     |   CYAN       |
+     |   WHITE      |  
 
 +  Font Styles  
 
