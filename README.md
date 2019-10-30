@@ -28,7 +28,7 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
 
      |              ColorName                  | 
      | ----------------------------------------|
-     | <font color=#000000>BLACK</font>        |    
+     | <font color=#000000> BLACK </font>        |    
      | <font color=#FF0000>RED</font>          |
      | <font color=#008000>GREEN</font>        |
      | <font color=#FFFF00>YELLOW</font>       |
@@ -36,7 +36,7 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
      | <font color=	#9932CC>DARKORCHILD</font>|
      | <font color=#00FFFF>CYAN</font>         |
      | <font color=#FFFFFF>WHITE</font>        |  
-       
+
 +  Font Styles  
 
      |       StyleName     |  
