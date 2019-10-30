@@ -24,7 +24,8 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
    - invoke the println function  
      ``` printer.println('Now,you can see the cyan output with underline and yellow background!') ```         
  
-+ Color Constant
++ Color Constant  
+
      |              ColorName                  | 
      | ----------------------------------------|
      | <font color=#000000>BLACK</font>        |    
@@ -35,7 +36,9 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
      | <font color=	#9932CC>DARKORCHILD</font>|
      | <font color=#00FFFF>CYAN</font>         |
      | <font color=#FFFFFF>WHITE</font>        |  
-+ Font Styles
+       
++  Font Styles  
+
      |       StyleName     |  
      | --------------------|
      |   HIGHLIGHT         |    
