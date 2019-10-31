@@ -18,7 +18,7 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
    - set the fontstyle  
      ``` printer.setFontStyle(FontStyle.UNDERLINE) ```  
    - set the front-color  
-     ``` printer.setFrontColor(FrontColor.CYAN) ```
+     ``` printer.setFrontColor(FrontColor.DARKORCHILD) ```
    - set the background-color  
      ``` printer.setBackGroundColor(BackgroundColor.YELLOW) ```  
    - invoke the ```println``` function  
