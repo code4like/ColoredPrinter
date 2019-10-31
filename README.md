@@ -1,11 +1,11 @@
-# ColoredPrinter Guideline
+# ColoredPrinter GuideLine
 ColoredPrinter is an easy-use tool, which has packaged verious color constants and font styles to make the output more colorful in your python program.
 
  + Enivorment  
     ~ python 3.7.5
  
  + How to get it？
-    Just run the command  ```pip install coloredprinter ```
+    Just run the command  ```pip install colouredprinter -i https://pypi.org/simple ```
  
  + UseAge
    
@@ -18,7 +18,7 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
    - set the fontstyle  
      ``` printer.setFontStyle(FontStyle.UNDERLINE) ```  
    - set the front-color  
-     ``` printer.setFrontColor(FrontColor.CYAN) ```
+     ``` printer.setFrontColor(FrontColor.DARKORCHILD) ```
    - set the background-color  
      ``` printer.setBackGroundColor(BackgroundColor.YELLOW) ```  
    - invoke the ```println``` function  
