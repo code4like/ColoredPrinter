@@ -3,6 +3,8 @@ import sys
 
 import traceback
 
+import tendo.ansiterm
+
 from colouredprinter.color.ColorConstant import FrontColor, BackgroundColor
 
 from colouredprinter.style.FontStyleConstant import FontStyle
