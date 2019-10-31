@@ -21,8 +21,9 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
      ``` printer.setFrontColor(FrontColor.CYAN) ```
    - set the background-color  
      ``` printer.setBackGroundColor(BackgroundColor.YELLOW) ```  
-   - invoke the println function  
-     ``` printer.println('Now,you can see the cyan output with underline and yellow background!') ```         
+   - invoke the ```println``` function  
+     ``` printer.println('Now,you can see the cyan output with underline and yellow background!') ```    
+     then ,you will get the ouput as it describles.       
    - To Reset The OutPut Style To Defult  
      ```printer.reset()``` 
 + The Difference Between ```printer.print()``` and ```printer.println()```  
