@@ -5,7 +5,7 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
     ~ python 3.7.5
  
  + How to get it？
-    Just run the command  ```pip install coloredprinter ```
+    Just run the command  ```pip install colouredprinter -i https://pypi.org/simple ```
  
  + UseAge
    
