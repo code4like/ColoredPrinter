@@ -10,9 +10,9 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
  + UseAge
    
    - import the module  
-      ``` from printer.ColoredPrinter import Printer ```  
-      ``` from color.ColorConstant import FrontColor, BackgroundColor```  
-      ``` from style.FontStyleConstant import FontStyle ```  
+      ``` from colouredprinter.printer.ColouredPrinter Printer ```  
+      ``` from from colouredprinter.style.FontStyleConstant import FontStyle, BackgroundColor```  
+      ``` from colouredprinter.color.ColorConstant import FrontColor ```  
    - init the Printer  
      ``` printer = Printer() ```  
    - set the fontstyle  
