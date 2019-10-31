@@ -56,3 +56,6 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
      |   NO_SPARKLE        |
      |  REVERSE_DISPLAY    |
      | NO_REVERSE_DISPLAY  |            
++  Something Confusing
+   - The font styles make no difference on windows's terminal,but work on IDE such as Pycharm.
+   
