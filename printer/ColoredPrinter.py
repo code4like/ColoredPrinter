@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 import sys
+
 import traceback
+
+import tendo.ansiterm
+
 from color.ColorConstant import FrontColor, BackgroundColor
+
 from style.FontStyleConstant import FontStyle
 
 
@@ -83,8 +88,8 @@ class Printer:
                       + str(self.__frontColor.value) + ';' \
                       + str(self.__backgroundColor.value) + 'm' + \
                       obj + self.__OUTPUT_SUFFIX
-
-        print(formatStyle)
+        sys.stdout.write(formatStyle)
+        sys.stdout.write('\n')
 
     def print(self, obj):
         formatStyle = self.__OUTPUT_PREFIX + \
@@ -93,4 +98,9 @@ class Printer:
                       + str(self.__backgroundColor.value) + 'm' + \
                       obj + self.__OUTPUT_SUFFIX
 
-        print(formatStyle, end='')
+        sys.stdout.write(formatStyle)
+
+    def reset(self):
+        self.setFontStyle(FontStyle.DEFAULT)
+        self.setFrontColor(FrontColor.DEFAULT)
+        self.setBackGroundColor(BackgroundColor.DEFAULT)

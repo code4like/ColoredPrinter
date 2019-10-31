@@ -17,7 +17,7 @@ class FrontColor(Enum):
 
     BLUE = '34'
 
-    BRIGHT_RED = '35'
+    DARKORCHILD = '35'
 
     CYAN = '36'
 
@@ -38,7 +38,7 @@ class BackgroundColor(Enum):
 
     BLUE = '44'
 
-    BRIGHT_RED = '45'
+    DARKORCHILD = '45'
 
     CYAN = '46'
 
