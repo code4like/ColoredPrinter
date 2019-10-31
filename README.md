@@ -11,7 +11,7 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
    
    - import the module  
       ``` from colouredprinter.printer.ColouredPrinter Printer ```  
-      ``` from from colouredprinter.style.FontStyleConstant import FontStyle, BackgroundColor```  
+      ``` from colouredprinter.style.FontStyleConstant import FontStyle, BackgroundColor```  
       ``` from colouredprinter.color.ColorConstant import FrontColor ```  
    - init the Printer  
      ``` printer = Printer() ```  
@@ -56,3 +56,6 @@ ColoredPrinter is an easy-use tool, which has packaged verious color constants a
      |   NO_SPARKLE        |
      |  REVERSE_DISPLAY    |
      | NO_REVERSE_DISPLAY  |            
++  Something Confusing
+   - The FontStyles make no difference on windows's terminal,but work on IDE such as Pycharm.
+   
